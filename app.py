@@ -38,3 +38,5 @@ def upgrade():
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8000, debug=True)
+
+# url_for これを使えばrouteのurlを変えても関数で紐づいているため問題なく動く。
